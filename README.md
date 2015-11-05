@@ -1,2 +1,2 @@
-# static_files
-Files for clients
+# Repo for Static Files
+
