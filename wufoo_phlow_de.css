@@ -6,9 +6,9 @@
 
  Last Updated : 25.10.2016
 
-- - - - - - - - - - - - - - - - - - - - - */
+ - - - - - - - - - - - - - - - - - - - - - */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i');
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i');
 
 
 /* PHLOW TYPOGRAPHY
@@ -20,7 +20,7 @@ http://phlow.github.io/phlow_typography/
 
 
 form {
-margin: 0;
+	margin: 0;
 }
 
 /* Logo */
@@ -29,27 +29,27 @@ margin: 0;
 
 /* Backgrounds */
 html {
-background-image:none;
-background-color:#222;
-color: #fff;
+	background-image:none;
+	background-color:#222;
+	color: #fff;
 }
 
 #container {
-width: 100%;
-background: #222;
-color: #fff;
-border: 0;
-box-shadow: 0 0 0;
+	width: 100%;
+	background: #222;
+	color: #fff;
+	border: 0;
+	box-shadow: 0 0 0;
 }
 .wufoo input.text, .wufoo textarea.textarea {
-background:#222;
-color: #fff;
+	background:#222;
+	color: #fff;
 }
 
 .wufoo .instruct {
-background-color: #00792c;
-color: #fff;
-border: 0;
+	background-color: #00792c;
+	color: #fff;
+	border: 0;
 }
 
 
@@ -59,25 +59,30 @@ border: 0;
 
 /* Typography */
 .wufoo .info h2 {
-color:#fff;
-display: none;
+	color:#fff;
+	display: none;
 }
 .wufoo .info div{
-color: #fff
+	color: #fff
 }
 .wufoo .section h3{font-size:110%;background:#222;color:#fff}
 
 .wufoo .section div{font-size:85%;color:#fff}
 
 .wufoo label.desc, .wufoo legend.desc {
-font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Verdana, serif;
-color:#fff;
-font-weight: 700;
+	font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Verdana, serif;
+	color:#fff;
+	font-weight: 700;
 }
-.wufoo li div, .wufoo li div label, .wufoo li span label{color:#fff}
-.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;color:#fff}
+.wufoo li div, .wufoo li div label, .wufoo li span label {
+	color:#fff
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice {
+	font-size:100%;
+	color: #fff;
+}
 .wufoo label.choice{
-color:#fff
+	color:#fff
 }
 
 
@@ -87,46 +92,46 @@ color:#fff
 /* Abschicken Button */
 
 form li.buttons input {
-border-radius: 3px 3px 3px 3px;
-font-size: 130%;
-font-size: 17px;
-padding: 10px 20px 10px;
--moz-transition: background-color 0.15s ease-in-out 0s;
-background: none repeat scroll 0 0 #fabb00;
-border: 0;
-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-color: white;
-cursor: pointer;
-display: inline-block;
-font-weight: bold;
-line-height: 1;
-margin: 0;
-outline: medium none;
-position: relative;
-text-align: center;
-text-decoration: none;
-width: auto;
+	border-radius: 3px 3px 3px 3px;
+	font-size: 130%;
+	font-size: 17px;
+	padding: 10px 20px 10px;
+	-moz-transition: background-color 0.15s ease-in-out 0s;
+	background: none repeat scroll 0 0 #fabb00;
+	border: 0;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 1;
+	margin: 0;
+	outline: medium none;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	width: auto;
 }
 
 form li.buttons input:hover {
-background: #fabb00;
+	background: #fabb00;
 }
 
 
 
 
 .wufoo .instruct small {
-     color: #fff;
+	color: #fff;
 }
 .wufoo .focused {
-background:#ffe444;
+	background:#ffe444;
 }
 
 
 form .instruct small {
-     color: #fff;
+	color: #fff;
 }
 .wufoo li.focused {
-background: #ffe444;
+	background: #ffe444;
 
 }
