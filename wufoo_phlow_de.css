@@ -43,7 +43,7 @@ html {
 }
 .wufoo input.text, .wufoo textarea.textarea {
 	background:#222;
-	color: #fff;
+	color: #fff !important;
 }
 
 .wufoo .instruct {
