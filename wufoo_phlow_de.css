@@ -4,7 +4,7 @@
  Author : Phlow
  URL : http://phlow.de
 
- Last Updated : 04.10.2024
+ Last Updated : 04.10.2024 V0.1
 
  - - - - - - - - - - - - - - - - - - - - - */
 
@@ -118,6 +118,8 @@ body {
 .wufoo label.desc,
 .wufoo legend.desc {
   color: #222!important;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 .wufoo li div,
@@ -168,6 +170,9 @@ form li.buttons input:hover {
 .wufoo .instruct small {
   color: #fff;
   font-size: 1rem;
+}
+.wufoo li {
+    margin-bottom: 1.25rem;
 }
 
 .wufoo li.focused,
