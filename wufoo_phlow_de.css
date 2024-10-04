@@ -138,7 +138,7 @@ form li.buttons input:hover {
 
 .wufoo li.focused,
 .wufoo .focused {
-  background: #9cd1c3;
+  background: #9cd1c3!important;
 }
 
 form .instruct small {
