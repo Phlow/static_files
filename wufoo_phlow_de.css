@@ -149,7 +149,7 @@ form li.buttons input {
   -moz-transition: background-color 0.15s ease-in-out 0s;
   background: none repeat scroll 0 0 #fabb00;
   border: 0;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  box-shadow: 0px -3px #ea9a0b inset;
   color: #000;
   cursor: pointer;
   display: inline-block;
@@ -164,7 +164,8 @@ form li.buttons input {
 }
 
 form li.buttons input:hover {
-  background: #fabb00;
+  background: #ffe8a5;
+  box-shadow: 0 3px #ffde7b;
 }
 
 .wufoo .instruct small {
